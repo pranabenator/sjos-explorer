@@ -1,0 +1,11 @@
+# Requirements for the SDoJ (formerly SDoS) interactive explorer (Module 2, Design.md).
+# Deploy to Streamlit Community Cloud with this file at the repo root.
+
+streamlit>=1.28.0
+numpy>=1.24.0
+pandas>=2.0.0
+altair>=5.0.0
+
+# Listed in Design.md; optional for offline figure export. The app itself uses
+# native Altair charts (Streamlit-bundled) and does not import matplotlib.
+matplotlib>=3.7.0
